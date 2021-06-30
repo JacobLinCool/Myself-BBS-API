@@ -1,5 +1,6 @@
 import { search } from "./search.js";
 import { get_new_animes } from "./new.js";
+import { get_anime } from "./anime.js";
 
 async function main() {
     addEventListener("fetch", (event) => {
@@ -26,6 +27,10 @@ async function handle_request(event) {
 
         case "new":
             content.data = await get_new_animes();
+            break;
+
+        case "anime":
+            content.data = await get_anime(query.get("id") || "44627");
             break;
 
         default:
