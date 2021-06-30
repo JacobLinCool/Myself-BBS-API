@@ -5,7 +5,6 @@
     "author": "JacobLinCool",
     "license": "MIT",
     "main": "dist/worker.js",
-    "type": "module",
     "scripts": {
         "build": "wrangler build",
         "dev": "wrangler preview --watch",
