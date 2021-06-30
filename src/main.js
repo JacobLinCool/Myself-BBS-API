@@ -24,6 +24,7 @@ async function handle_request(event) {
             break;
 
         default:
+            content.msg = "你是不是不知道這個 API 怎麼用？但很抱歉，我文檔還沒寫，所以只能先請你自己摸索囉！";
             break;
     }
 
