@@ -33,7 +33,7 @@ async function handle_request(event) {
             break;
     }
 
-    const response = new Response(JSON.stringify(content, null, 2), {
+    const response = new Response(JSON.stringify(content, null, query.get("indent") ? +query.get("indent") || 2 : 0), {
         headers: {
             "Content-Type": "application/json; charset=utf-8",
             "Cross-Origin-Resource-Policy": "cross-origin",
