@@ -1,6 +1,8 @@
 import fetch from "node-fetch";
 
 async function get_new_animes() {
+    console.console("Task: Get New Animes");
+    console.time("Task: Get New Animes");
     let list = [];
     let page1 = await fetch("https://myself-bbs.com/forum-133-1.html?forumdefstyle=yes").then((r) => r.text());
 
@@ -33,6 +35,7 @@ async function get_new_animes() {
         });
     }
 
+    console.timeEnd("Task: Get New Animes");
     return list;
 }
 

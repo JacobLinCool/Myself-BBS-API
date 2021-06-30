@@ -40,7 +40,6 @@ async function handle_request(event) {
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Credentials": "true",
             "Cache-Control": "max-age=300, s-maxage=300",
-            "X-Location": event.request.cf ? event.request.cf.colo : "",
         },
     });
     return response;

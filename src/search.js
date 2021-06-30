@@ -1,6 +1,8 @@
 import fetch from "node-fetch";
 
 async function search(search_text = "") {
+    console.log("Task: Search");
+    console.time("Task: Search");
     let search_raw = await fetch("http://myself-bbs.com/search.php?mod=forum", {
         method: "POST",
         headers: {
@@ -26,6 +28,8 @@ async function search(search_text = "") {
             };
         })
         .sort((a, b) => b.view - a.view);
+
+    console.timeEnd("Task: Search");
     return result;
 }
 
