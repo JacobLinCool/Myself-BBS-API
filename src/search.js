@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 async function search(search_text = "") {
     let search_raw = await fetch("http://myself-bbs.com/search.php?mod=forum", {
         method: "POST",

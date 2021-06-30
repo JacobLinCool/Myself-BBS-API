@@ -2,20 +2,24 @@
     "name": "myself-bbs-api",
     "version": "1.0.0",
     "description": "",
+    "author": "JacobLinCool",
+    "license": "MIT",
+    "main": "dist/worker.js",
+    "type": "module",
     "scripts": {
         "build": "wrangler build",
         "dev": "wrangler preview --watch",
         "preview": "wrangler preview --watch",
-        "publish": "wrangler publish"
+        "publish": "wrangler publish",
+        "test": "node --experimental-vm-modules node_modules/.bin/jest --config=jest.config.mjs"
     },
-    "main": "dist/worker.js",
-    "author": "",
-    "license": "MIT",
     "dependencies": {
+        "node-fetch": "^2.6.1",
         "webpack": "^5.37.1",
         "webpack-cli": "^4.7.0"
     },
     "devDependencies": {
-        "@cloudflare/wrangler": "^1.17.0"
+        "@cloudflare/wrangler": "^1.17.0",
+        "jest": "^27.0.6"
     }
 }
