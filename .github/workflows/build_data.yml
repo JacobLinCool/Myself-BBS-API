@@ -1,0 +1,30 @@
+name: Build Data
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Build Data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: Install Packages
+        run: npm install
+      - name: Build Data
+        run: npm run list
+      - name: Commit
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          publish_dir: "./file"
+          user_name: "JacobLinCool"
+          user_email: "jacoblincool@users.noreply.github.com"
+          publish_branch: "data"

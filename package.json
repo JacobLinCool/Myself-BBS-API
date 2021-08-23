@@ -10,9 +10,11 @@
         "dev": "wrangler preview --watch",
         "preview": "wrangler preview --watch",
         "publish": "wrangler publish",
-        "test": "node --experimental-vm-modules node_modules/.bin/jest --config=jest.config.mjs"
+        "test": "node --experimental-vm-modules node_modules/.bin/jest --config=jest.config.mjs",
+        "list": "node script/serializing.js && node script/completed.js && node script/details.js"
     },
     "dependencies": {
+        "jsdom": "^17.0.0",
         "node-fetch": "^2.6.1",
         "webpack": "^5.37.1",
         "webpack-cli": "^4.7.0"
