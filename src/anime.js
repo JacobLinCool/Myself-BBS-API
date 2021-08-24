@@ -1,29 +1,19 @@
-import fetch from "node-fetch";
+const anime = {};
 
-async function get_anime(id = "44627") {
-    console.log("Task: Get Anime");
-    let raw = await fetch(`https://myself-bbs.com/thread-${id}-1-1.html`).then((r) => r.text());
+const cacheTime = 300; // second
 
-    console.time("Task: Get Anime");
-    let rex_name = /<meta name="keywords" content="([^]*?)"/g;
-    let name = [...raw.matchAll(rex_name)][0][1];
-
-    let rex_description = /<p style="line-height:23px;">([^]*?)<\/p>/g;
-    let description = [...raw.matchAll(rex_description)][0][1].replace(/<br \/>/g, "").replace(/\r/g, "");
-
-    let rex_image = /<div class="info_img_box fl">\s<img src="([^]+?)" alt="[^]*?">\s<\/div>/g;
-    let image = [...raw.matchAll(rex_image)][0][1];
-
-    let rex_ep = /<a href="javascript:;">([^]+?)<\/a>/g;
-    let ep = [...raw.matchAll(rex_ep)].map((x) => x[1].trim());
-
-    console.timeEnd("Task: Get Anime");
-    return {
-        name: name,
-        description: description,
-        image: image,
-        ep: ep,
-    };
+async function getAnime(id) {
+    if (!anime[id]) {
+        const res = await fetch(`https://raw.githubusercontent.com/JacobLinCool/Myself-BBS-API/data/details/${id}.json`, {
+            headers: {
+                "Cache-Control": `max-age=${cacheTime}, s-maxage=${cacheTime}`,
+            },
+        });
+        if (res.status === 200) {
+            anime[id] = await res.json();
+        }
+    }
+    return anime[id];
 }
 
-export { get_anime };
+export { getAnime };

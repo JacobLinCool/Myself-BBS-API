@@ -1,53 +1,73 @@
-import { search } from "./search.js";
-import { get_new_animes } from "./new.js";
-import { get_anime } from "./anime.js";
+import { Router } from "itty-router";
+import { response } from "./response";
+import { getAiringList, getCompletedList } from "./list";
+import { getAnime } from "./anime";
+import { search } from "./search";
+
+const router = Router();
+
+router.get("/list", async (request) => {
+    const { query, url } = request;
+
+    const origin = new URL(url).origin;
+
+    const data = {
+        completed: origin + "/list/completed",
+        airing: origin + "/list/airing",
+    };
+
+    return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
+});
+
+router.get("/list/completed", async (request) => {
+    const { query } = request;
+
+    const data = await getCompletedList();
+
+    return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
+});
+
+router.get("/list/airing", async (request) => {
+    const { query } = request;
+
+    const data = await getAiringList();
+
+    return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
+});
+
+router.get("/anime/:id", async (request) => {
+    const { query, params } = request;
+
+    const data = await getAnime(params.id);
+
+    return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
+});
+
+router.get("/search/:query", async (request) => {
+    const { query, params } = request;
+
+    const data = await search(decodeURIComponent(params.query));
+
+    return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
+});
+
+router.all("*", async (request) => {
+    const { query } = request;
+    return response({ data: JSON.stringify({ error: "Unknown Request" }, null, query.min ? 0 : 2) });
+});
 
 async function main() {
     addEventListener("fetch", (event) => {
-        event.respondWith(handle_request(event));
+        try {
+            event.respondWith(router.handle(event.request));
+        } catch (err) {
+            event.respondWith(response({ data: JSON.stringify({ error: err.message }, null, 2) }));
+        }
     });
 
     addEventListener("scheduled", (event) => {
         event.waitUntil(handle_cron(event));
     });
-}
-
-async function handle_request(event) {
-    let url = new URL(event.request.url);
-    let query = new URLSearchParams(url.search);
-
-    let endpoint = url.pathname.split("/")[1] || "";
-
-    let content = { data: null };
-
-    switch (endpoint) {
-        case "search":
-            content.data = await search(query.get("anime") || "");
-            break;
-
-        case "new":
-            content.data = await get_new_animes();
-            break;
-
-        case "anime":
-            content.data = await get_anime(query.get("id") || "44627");
-            break;
-
-        default:
-            content.msg = "你是不是不知道這個 API 怎麼用？但很抱歉，我文檔還沒寫，所以只能先請你自己摸索囉！";
-            break;
-    }
-
-    const response = new Response(JSON.stringify(content, null, query.get("indent") ? +query.get("indent") || 2 : 0), {
-        headers: {
-            "Content-Type": "application/json; charset=utf-8",
-            "Cross-Origin-Resource-Policy": "cross-origin",
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Credentials": "true",
-            "Cache-Control": "max-age=300, s-maxage=300",
-        },
-    });
-    return response;
 }
 
 export { main };

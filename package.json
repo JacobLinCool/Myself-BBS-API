@@ -6,21 +6,23 @@
     "license": "MIT",
     "main": "dist/worker.js",
     "scripts": {
+        "login": "wrangler login",
         "build": "wrangler build",
-        "dev": "wrangler preview --watch",
+        "dev": "wrangler dev",
         "preview": "wrangler preview --watch",
         "publish": "wrangler publish",
         "test": "node --experimental-vm-modules node_modules/.bin/jest --config=jest.config.mjs",
         "list": "node script/serializing.js && node script/completed.js && node script/details.js"
     },
     "dependencies": {
+        "itty-router": "^2.3.10",
         "jsdom": "^17.0.0",
-        "node-fetch": "^2.6.1",
-        "webpack": "^5.37.1",
-        "webpack-cli": "^4.7.0"
+        "node-fetch": "^2.6.1"
     },
     "devDependencies": {
         "@cloudflare/wrangler": "^1.17.0",
-        "jest": "^27.0.6"
+        "jest": "^27.0.6",
+        "webpack": "^5.37.1",
+        "webpack-cli": "^4.7.0"
     }
 }

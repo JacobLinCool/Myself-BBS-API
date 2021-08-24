@@ -7,6 +7,7 @@ const serializing = JSON.parse(fs.readFileSync("./file/serializing.json")).data;
 const urls = [...completed.map((x) => x.link), ...serializing.map((x) => x.link)];
 
 (async () => {
+    const details = [];
     if (!fs.existsSync("./file/details/")) fs.mkdirSync("./file/details/");
     for (let i = 0; i < urls.length; i++) {
         const url = urls[i];
@@ -21,12 +22,14 @@ const urls = [...completed.map((x) => x.link), ...serializing.map((x) => x.link)
                 }
                 fs.writeFileSync(`./file/details/${data.id}.json`, JSON.stringify(data, null, 2));
                 console.log(`Details: ${i + 1}/${urls.length} ${data.title}`);
+                details.push(data);
             });
         } catch (err) {
             console.error(url);
             console.error(err);
         }
     }
+    fs.writeFileSync("./file/details.json", JSON.stringify(details, null, 2));
 })();
 
 async function getDetails(url) {
