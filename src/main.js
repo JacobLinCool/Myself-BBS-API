@@ -3,6 +3,7 @@ import { response } from "./response";
 import { getAiringList, getCompletedList } from "./list";
 import { getAnime } from "./anime";
 import { search } from "./search";
+import fetch from "node-fetch";
 
 const router = Router();
 
@@ -31,6 +32,14 @@ router.get("/list/airing", async (request) => {
     const { query } = request;
 
     const data = await getAiringList();
+
+    return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
+});
+
+router.get("/anime/all", async (request) => {
+    const { query } = request;
+
+    const data = await fetch("https://raw.githubusercontent.com/JacobLinCool/Myself-BBS-API/data/details.json").then((r) => r.json());
 
     return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
 });
