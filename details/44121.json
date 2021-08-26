@@ -15,7 +15,10 @@
   "website": "https://www.ara-mushi.com/",
   "description": "《阿拉尼耶的蟲籠》是由坂本サク從原作、劇本、監督、動畫製作到音樂一手包辦的個人創作。故事背景是架構在一個以靈異地點著稱的巨大集合住宅，搬到這個住宅區的 18 歲女大學生「凜」（暫譯，りん）偶然間發現了怪異的現象，隱藏在建築物中的究竟是什麼呢……？",
   "image": "https://myself-bbs.com/data/attachment/forum/201904/03/211650ktvzdhziiik0kko6.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44121",
+      "001"
+    ]
+  }
 }

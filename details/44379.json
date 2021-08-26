@@ -15,7 +15,10 @@
   "website": "http://mjp-anime.jp/",
   "description": "地球暦2110年，人們在開始前進宇宙之後取得了豐富的資源的同時也帶來了物種的繁榮。某日，從外宇宙而來以木星為橋頭保並打著 汎銀河統一帝國 的謎之勢力開始入侵地球圈！！為了渡過這個存亡危機，以操作了遺傳因子來適應宇宙的特務組織 MJP 將一批又一批的少年少女們送上了戰場……。",
   "image": "https://myself-bbs.com/data/attachment/forum/202001/04/180457fuj1umf1cmzz18uz.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44379",
+      "001"
+    ]
+  }
 }

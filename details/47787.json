@@ -15,7 +15,10 @@
   "website": "https://www.kimikana.jp/",
   "description": "以池袋為舞台的青春奇幻物語《你在他方》，描述和青梅竹馬「新」吵架的主角「澪」，為了和好而在前往找新的路上發生了交通意外，意識清醒後的澪，卻看到了不可思議的世界……。",
   "image": "https://myself-bbs.com/data/attachment/forum/202107/17/160602iwwbomjjw44ei4iz.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "47787",
+      "100"
+    ]
+  }
 }

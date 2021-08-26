@@ -15,7 +15,10 @@
   "website": "http://nep-anime.tv/",
   "description": "新作 OVA 動畫中，涅普一行人來到充滿綠色自然的 “我的暑假山” 度假，但涅普和眾人在山中散步時，竟然誤闖到其他次元了，並在那裡，遇見宛如涅普成人姿態的女性。",
   "image": "https://myself-bbs.com/data/attachment/forum/201907/11/145423e5wrjsvaqyi5e6dd.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "45175",
+      "001"
+    ]
+  }
 }

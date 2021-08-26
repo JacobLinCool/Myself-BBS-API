@@ -15,7 +15,10 @@
   "website": "https://cityhunter-movie.com/",
   "description": "《城市獵人》描述主角「冴羽獠」雖然好色卻又身懷絕技，他與個性開朗的女主角「小香」共同經營私人偵探事務所。在一次次艱險的委託任務中，他們以其獨特的方式鏟除城市中的罪惡。",
   "image": "https://myself-bbs.com/data/attachment/forum/201911/03/153600gqm9vwj0xs0ex0vx.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "45296",
+      "000"
+    ]
+  }
 }

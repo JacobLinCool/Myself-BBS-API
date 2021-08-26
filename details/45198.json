@@ -15,7 +15,10 @@
   "website": "http://www.fate-sn.com/",
   "description": "《Fate/stay night [Heaven’s Feel]》故事描述魔術師（御主）與英靈（從者），為了爭奪能夠實現所有願望的許願機「聖杯」進而發動戰爭。就在聖杯戰爭發生後 10 年，戰火在冬木市再度點燃。繼承上次聖杯戰爭參加者衛宮切嗣的遺志，他的養子—衛宮士郎決心參與這場戰鬥。",
   "image": "https://myself-bbs.com/data/attachment/forum/201908/22/161232agprt3jpoymj35os.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "45198",
+      "001"
+    ]
+  }
 }

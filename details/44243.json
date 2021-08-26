@@ -14,7 +14,10 @@
   "website": "http://kimikoe.com/",
   "description": "描述主角「渚」不小心在一間許久未使用的廣播電台中迷路、而她在裡面模仿 DJ 的動作、卻成為串起整個故事的契機。而在這次的預告篇中，也可看見女主角藉由祖母對於「言靈」的一席話，藉由廣播、以及音樂還有夥伴們的友情逐漸成長。",
   "image": "https://myself-bbs.com/data/attachment/forum/201806/06/114419ggq9776qh9q9qgw9.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44243",
+      "001"
+    ]
+  }
 }

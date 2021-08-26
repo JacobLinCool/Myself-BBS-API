@@ -16,9 +16,18 @@
   "website": "",
   "description": "《HELLO WORLD》外傳動畫《ANOTHER WORLD》於2019年9月13日開始在Hikari TV配信，全3話。本片以10年後的未來到訪的直實的視角，以時間軸不同的3部作品的構造。",
   "image": "https://myself-bbs.com/data/attachment/forum/201911/27/113636yylq1yqz1qbqjxj2.jpg",
-  "episodes": [
-    "第 01 話 Record 2027",
-    "第 02 話 Record 2032",
-    "第 03 話 Record 2036"
-  ]
+  "episodes": {
+    "第 01 話 Record 2027": [
+      "45310",
+      "001"
+    ],
+    "第 02 話 Record 2032": [
+      "45310",
+      "002"
+    ],
+    "第 03 話 Record 2036": [
+      "45310",
+      "003"
+    ]
+  }
 }

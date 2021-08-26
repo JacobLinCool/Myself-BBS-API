@@ -15,8 +15,14 @@
   "website": "https://promare-movie.com/",
   "description": "《Galo篇》﹑《Lio篇》是電影《PROMAE》的前傳動畫。",
   "image": "https://myself-bbs.com/data/attachment/forum/201911/27/223622tfb97k74vdg26o7t.jpg",
-  "episodes": [
-    "第 01 話 Galo篇",
-    "第 02 話 Lio篇"
-  ]
+  "episodes": {
+    "第 01 話 Galo篇": [
+      "45311",
+      "001"
+    ],
+    "第 02 話 Lio篇": [
+      "45311",
+      "002"
+    ]
+  }
 }

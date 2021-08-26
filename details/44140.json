@@ -15,7 +15,10 @@
   "website": "http://www.kingofthorn.net/",
   "description": "《古城荊棘王》的故事中，有種蔓延全世界的石化病，感染者會全部集中之後進行冷凍睡眠，該設施是由古城所改建。但當這些感染者再次甦醒時，古城已經成為充斥著怪獸的廢墟，主角「霞」必須同時面對怪病以及怪物的死亡威脅，為了生存而展開戰鬥。",
   "image": "https://myself-bbs.com/data/attachment/forum/201905/08/095628jyt8kdzka95mw6p9.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44140",
+      "001"
+    ]
+  }
 }

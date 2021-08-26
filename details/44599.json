@@ -15,7 +15,10 @@
   "website": "http://project-itoh.com/",
   "description": "因為賽拉耶佛的核爆，地球表面出現了一大坑洞，幾個被神秘公司援助過的落後國家開始發生了大規模的動亂及屠殺事件，而美國特殊情報部隊的克拉維斯，在追查殺戮事件的過程中，意外地得知「虐殺器官」的存在，並因此開始試圖找出真相…。",
   "image": "https://myself-bbs.com/data/attachment/forum/202011/07/1831369dh96dv2u65mlhe6.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44599",
+      "001"
+    ]
+  }
 }

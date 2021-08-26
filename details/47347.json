@@ -15,7 +15,10 @@
   "website": "https://anime.fate-go.jp/",
   "description": "劇場版《Fate/Grand Order - 神聖圓桌領域卡美洛 -》，將分為前篇「Wandering; Agateram」與後篇「Paladin; Agateram」。故事將講述遊歷各地的圓桌騎士・貝德維爾將到達他旅程的盡頭，公元 1273 年的耶路薩冷。\n\n原本祈禱之地變成了一大片沙漠，居民被迫離開家園，而此處也被奉命保護獅子王和聖督的「圓桌騎士」、領地被召喚與此的「太陽神・奧茲曼迪亞斯」，以及土地被奪走伺機反抗的「山之民」三大勢力所佔據。為了修復人理，來自迦勒底的瑪修、達文西以及人類最後的 Master・藤丸將與貝德維爾共同展開最後的探索之旅。",
   "image": "https://myself-bbs.com/data/attachment/forum/202105/01/180302um955nu6z006u58m.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "47347",
+      "100"
+    ]
+  }
 }

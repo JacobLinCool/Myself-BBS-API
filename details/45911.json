@@ -15,7 +15,10 @@
   "website": "http://www.goblinslayer.jp/",
   "description": "「我不拯救世界，只管殺哥布林。」邊境公會裡，有個只靠討伐哥布林就升上銀等的罕見冒險者「哥布林殺手」，智慧與策略並存的他不擇手段，不辭勞苦，潛心掃蕩哥布林。這次的劇場版則是描述一個冰凍之地受到了哥布林的襲擊，哥布林殺手團隊一行人將要去解救在暴風雪中被哥布林囚禁的新角色：千金劍士。",
   "image": "https://myself-bbs.com/data/attachment/forum/202007/30/1824347fazytybty8ht7te.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "45911",
+      "001"
+    ]
+  }
 }

@@ -14,7 +14,10 @@
   "website": "http://www.nbcuni.co.jp/",
   "description": "《希望篇》描述一切系列完結的故事。為接續未來篇的故事。",
   "image": "https://myself-bbs.com/data/attachment/forum/202005/30/153157e2aa5ye5gnen4uge.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44418",
+      "001"
+    ]
+  }
 }

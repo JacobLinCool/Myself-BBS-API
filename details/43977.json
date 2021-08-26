@@ -16,7 +16,10 @@
   "website": "http://kurobas-lg.com/",
   "description": "美國的街頭籃球球隊Jabberwock來日本進行友誼賽，但他們卻在比賽中羞辱與之對戰的日本球隊，里子的爸爸景虎無法忍下這口氣，因而對Jabberwock宣戰。集結了奇蹟世代五名成員與火神黑子的VORPAL SWORDS因此組成。一個禮拜後復仇賽開打，剛開始雙方勢均力敵，但當Jabberwock拿出原有實力之後，比分差距越拉越大…。",
   "image": "https://myself-bbs.com/data/attachment/forum/201812/22/01012019ataaa12jmmj4kd.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "43977",
+      "001"
+    ]
+  }
 }

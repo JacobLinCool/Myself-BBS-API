@@ -15,7 +15,10 @@
   "website": "",
   "description": "《FLCL》續作故事描述，自從直太與晴子展開超空間的冒險後，已經過了好些年，一個名叫仁美的少女自認過著平凡的日子，直到她在學校遇見了新任的「晴子老師」。很快地，醫療機械工廠（Medical Mechanica）襲擊了仁美居住的小鎮，後來她同晴子發現拯救全人類的祕密，然而這個秘密唯有晴子能解開。",
   "image": "https://myself-bbs.com/data/attachment/forum/202106/21/131314kmzmsp4y3m0lo6dp.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44794",
+      "001"
+    ]
+  }
 }

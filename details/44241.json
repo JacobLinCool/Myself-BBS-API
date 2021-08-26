@@ -16,7 +16,10 @@
   "website": "http://www.gochiusa.com/",
   "description": "故事背景是在Rabbit House第二年的暑假，依舊想要與智乃等人創作許多回憶的心愛，不知為何拿着行李獨自站在車站…縱使麻耶與小惠一起光臨Rabbit House，但少了心愛的狀況下還是少了點熱鬧的氣氛。因此智乃鼓起勇氣，邀請大家一起去參加煙火大會…",
   "image": "https://myself-bbs.com/data/attachment/forum/201805/30/1631179gf6yeefrykssrqr.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44241",
+      "001"
+    ]
+  }
 }

@@ -14,7 +14,10 @@
   "website": "http://haikarasan.net/",
   "description": "《窈窕淑女》作品以日本大正時代為舞台，描述活潑好動的女主角「花村紅緒」、以及其身為陸軍少尉的未婚夫「伊集院忍」兩人之間波瀾萬丈的戀愛故事。",
   "image": "https://myself-bbs.com/data/attachment/forum/201806/19/121440ble467huc76enu2j.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44248",
+      "001"
+    ]
+  }
 }

@@ -14,9 +14,18 @@
   "website": "https://anime.assaultlily-pj.com/fruits/",
   "description": "《Assault Lily Bouquet》迷你動畫",
   "image": "https://myself-bbs.com/data/attachment/forum/202107/23/11350268k8ac64k4pokzp6.jpg",
-  "episodes": [
-    "第 01 話",
-    "第 02 話",
-    "第 03 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "47802",
+      "001"
+    ],
+    "第 02 話": [
+      "47802",
+      "002"
+    ],
+    "第 03 話": [
+      "47802",
+      "003"
+    ]
+  }
 }

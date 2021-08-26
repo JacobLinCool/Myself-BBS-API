@@ -16,7 +16,10 @@
   "website": "https://nakineko-movie.com/",
   "description": "一名古怪的女孩為了吸引心儀對象的目光，居然變成了一隻貓！但在不知不覺間，人類與動物之間的界線卻開始越來越模糊。",
   "image": "https://myself-bbs.com/data/attachment/forum/202006/19/231453rsapsjrewoo1reeo.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "45508",
+      "001"
+    ]
+  }
 }

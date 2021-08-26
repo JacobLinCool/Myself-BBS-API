@@ -15,7 +15,10 @@
   "website": "http://www.bakemono-no-ko.jp/",
   "description": "《怪物的孩子》作品以住著長得像是動物的怪物所居住的世界「涉天街」為背景舞台，描述從人類世界的「涉谷」不小心迷路到了「涉天街」的少年，和那個世界中孤身一人的怪物劍士「熊徹」相遇後所展開的故事。成為熊徹弟子的少年被賦予了「九太」這個名字，共同展開了修行與冒險的日子。",
   "image": "https://myself-bbs.com/data/attachment/forum/201810/29/213827cam0lcqm0k9chib9.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "43844",
+      "001"
+    ]
+  }
 }

@@ -15,8 +15,14 @@
   "website": "http://www.project-index.net/",
   "description": "講述在學園都市製作的宇宙升降機「安迪米昂」完成在即之時，上條當麻和茵蒂克絲與擁有「奇蹟」的歌聲的少女鳴護艾莉莎相遇，隨後以艾莉莎為引子觸發魔法世界和科學世界之間的戰爭的故事。",
   "image": "https://myself-bbs.com/data/attachment/forum/201808/14/172027cze9u0vvex95wg4u.jpg",
-  "episodes": [
-    "第 01 話",
-    "第 02 話 特典"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "43636",
+      "001"
+    ],
+    "第 02 話 特典": [
+      "43636",
+      "002"
+    ]
+  }
 }

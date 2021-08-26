@@ -15,7 +15,10 @@
   "website": "http://bungo-stray-dogs.jp/",
   "description": "故事以一名被孤兒院趕出的少年中島敦為主角，因恰好救出武裝偵探社社員太宰治、解決「食人虎事件」後被推薦入社。隨後陸續有黑手黨成員登場試圖綁架中島，原來敦在黑道中因不知名原因被懸賞 70 億。故事中的人物皆有特殊異能力，而人物名與能力名皆與世界上的知名文豪有關。",
   "image": "https://myself-bbs.com/data/attachment/forum/201810/15/12564232ccfj6ryy92wc9r.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44337",
+      "001"
+    ]
+  }
 }

@@ -16,7 +16,10 @@
   "website": "http://www.marv.jp",
   "description": "故事發生在漫畫第一部的12年前。講述了高中時代的有馬貴將和富良太志，於13區追查喰種「燈籠」的故事。",
   "image": "https://myself-bbs.com/data/attachment/forum/201510/07/122421k754ebwe3olu73cz.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "39090",
+      "001"
+    ]
+  }
 }

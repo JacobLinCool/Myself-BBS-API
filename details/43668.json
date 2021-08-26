@@ -14,8 +14,14 @@
   "website": "http://koegoto.com/",
   "description": "故事中的主角，女高中生「青柳柑奈」某日受到身為遊戲製作公司社長的姊姊拜託，開始從事為成人遊戲配音的聲優工作，而作品便描述她在工作時遇到的各種趣事。姐姐的公司是製作H-GAME，而柑奈的工作是為H-GAME配音。",
   "image": "https://myself-bbs.com/data/attachment/forum/201808/22/124727av1ogv3bw4406kd4.jpg",
-  "episodes": [
-    "第 01 話",
-    "第 02 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "43668",
+      "001"
+    ],
+    "第 02 話": [
+      "43668",
+      "002"
+    ]
+  }
 }

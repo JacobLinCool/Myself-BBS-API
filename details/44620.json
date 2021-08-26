@@ -15,7 +15,10 @@
   "website": "",
   "description": "《+tic模型姐妹》這部作品講述了三位所屬於某高中模型部的少女——“姐姐”“卷卷”以及“河童”三位交織而成的青春搞笑校園故事。",
   "image": "https://myself-bbs.com/data/attachment/forum/202012/01/002003n778lnppkz747pzp.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44620",
+      "001"
+    ]
+  }
 }

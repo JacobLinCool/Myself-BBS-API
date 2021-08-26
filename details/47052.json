@@ -14,7 +14,10 @@
   "website": "http://planetarian-project.com/",
   "description": "在世界大戰的30年後，整個世界遭受了極嚴重的破壞，一位廢墟獵人來到了一座因為戰爭而被廢棄的都市來尋找可用物資，在都市裡，他碰到了都市星象館的招待機器人 星野夢美，故事就此開始…",
   "image": "https://img.myself-bbs.com/data/attachment/forum/202102/24/011519bb555edldm44mbei.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "47052",
+      "001"
+    ]
+  }
 }

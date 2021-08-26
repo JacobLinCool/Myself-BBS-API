@@ -15,8 +15,14 @@
   "website": "",
   "description": "岡山縣倉敷市兒島，瀨戶大橋旁的寧靜小鎮・下津井裡，住著一位與態度冷淡的父親桃太郎一起生活的女高中生森川心羽。她總是在午睡時，會一直重複夢見一個不可思議的夢。",
   "image": "https://myself-bbs.com/data/attachment/forum/202105/15/154321y8jucojiyiq215oy.jpg",
-  "episodes": [
-    "第 01 話",
-    "OVA"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44788",
+      "001"
+    ],
+    "OVA": [
+      "44788",
+      "002"
+    ]
+  }
 }

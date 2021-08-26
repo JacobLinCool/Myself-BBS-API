@@ -15,7 +15,10 @@
   "website": "https://www.madoka-magica.com/",
   "description": "魔法少女小圓的故事，是圍繞著五位魔法少女的成長與冒險展開。出生於良好家庭，親朋好友團聚，有哭有笑，是誰都擁有的日常生活。就讀市立見瀧原中學二年級的少女「鹿目圓」，和其他的國中女生一樣，過著平凡幸福的日常生活。突然有一天，一名神秘的轉學生「曉美焰」的出現，讓圓的命運開始改變。",
   "image": "https://myself-bbs.com/data/attachment/forum/201808/26/212920w7uxajzx7mj7wj7j.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "43691",
+      "001"
+    ]
+  }
 }

@@ -16,7 +16,10 @@
   "website": "",
   "description": "故事講述了由於雛見澤症候群病原體的發現，自衛隊的隔離，被封鎖的雛見澤村。實際上是“雛見澤症候群”（外界稱士兵腦寄生病毒）從雛見澤擴散到全世界的開端！",
   "image": "https://myself-bbs.com/data/attachment/forum/202008/04/233447p1sh1mfjifkp1miw.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "44521",
+      "001"
+    ]
+  }
 }

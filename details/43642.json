@@ -15,7 +15,10 @@
   "website": "http://k-project.jpn.com/",
   "description": "這次劇場版將從四位「王」引發的學園島事件之後做為故事開端，夜刀神狗朗與貓在尋找從事件之後就消失無蹤的伊佐那社，但毫無任何線索。就在兩人意志消沉之時，碰到了吠舞羅成員櫛名安娜及鎌本力夫在路上追逐他人的場景……",
   "image": "https://myself-bbs.com/data/attachment/forum/201808/15/235639i3s21vbaccbacc2c.jpg",
-  "episodes": [
-    "第 01 話"
-  ]
+  "episodes": {
+    "第 01 話": [
+      "43642",
+      "001"
+    ]
+  }
 }
