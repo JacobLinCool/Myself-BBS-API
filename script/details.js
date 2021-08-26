@@ -53,9 +53,13 @@ async function getDetails(url) {
     const description = infoBox.querySelector("#info_introduction > p").textContent.trim();
     const image = document.querySelector(".info_img_box > img").src;
     const episodes = [...document.querySelectorAll(".main_list > li")].reduce((obj, node) => {
-        const name = node.querySelector("a").textContent.trim();
-        const code = node.querySelector("a[data-href^='https://v.myself-bbs.com']").dataset.href.trim().match(/\d+/g);
-        obj[name] = code;
+        try {
+            const name = node.querySelector("a").textContent.trim();
+            const code = node.querySelector("a[data-href^='https://v.myself-bbs.com']").dataset.href.trim().match(/\d+/g);
+            obj[name] = code;
+        } catch (err) {
+            console.error(err.message, url);
+        }
         return obj;
     }, {});
 
