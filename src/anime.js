@@ -16,4 +16,16 @@ async function getAnime(id) {
     return anime[id];
 }
 
-export { getAnime };
+async function getM3U8(vid, ep) {
+    const res = await fetch(`https://raw.githubusercontent.com/JacobLinCool/Myself-BBS-API/data/m3u8/${vid}/${ep}.m3u8`, {
+        headers: {
+            "Cache-Control": `max-age=${cacheTime}, s-maxage=${cacheTime}`,
+        },
+    });
+    if (res.status === 200) {
+        return await res.text();
+    }
+    return null;
+}
+
+export { getAnime, getM3U8 };

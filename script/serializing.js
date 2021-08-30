@@ -2,6 +2,7 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
+console.time("AIRING LIST PROGRAM");
 getList().then((list) => {
     if (!fs.existsSync("./file/")) fs.mkdirSync("./file/");
     fs.writeFileSync(
@@ -18,6 +19,7 @@ getList().then((list) => {
             2
         )
     );
+    console.timeEnd("AIRING LIST PROGRAM");
 });
 
 async function getList(maxDepth = 1000) {

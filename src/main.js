@@ -1,12 +1,13 @@
 import { Router } from "itty-router";
 import { response } from "./response";
 import { getAiringList, getCompletedList } from "./list";
-import { getAnime } from "./anime";
+import { getAnime, getM3U8 } from "./anime";
 import { search } from "./search";
 import fetch from "node-fetch";
 
 const router = Router();
 
+// list
 router.get("/list", async (request) => {
     const { query, url } = request;
 
@@ -19,7 +20,6 @@ router.get("/list", async (request) => {
 
     return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
 });
-
 router.get("/list/completed", async (request) => {
     const { query } = request;
 
@@ -27,7 +27,6 @@ router.get("/list/completed", async (request) => {
 
     return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
 });
-
 router.get("/list/airing", async (request) => {
     const { query } = request;
 
@@ -36,6 +35,7 @@ router.get("/list/airing", async (request) => {
     return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
 });
 
+// anime
 router.get("/anime/all", async (request) => {
     const { query } = request;
 
@@ -43,7 +43,6 @@ router.get("/anime/all", async (request) => {
 
     return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
 });
-
 router.get("/anime/:id", async (request) => {
     const { query, params } = request;
 
@@ -51,7 +50,15 @@ router.get("/anime/:id", async (request) => {
 
     return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
 });
+router.get("/m3u8/:id/:ep", async (request) => {
+    const { query, params } = request;
 
+    const data = await getM3U8(params.id, params.ep);
+
+    return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
+});
+
+// search
 router.get("/search/:query", async (request) => {
     const { query, params } = request;
 
@@ -60,6 +67,7 @@ router.get("/search/:query", async (request) => {
     return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
 });
 
+// unknown request
 router.all("*", async (request) => {
     const { query } = request;
     return response({ data: JSON.stringify({ error: "Unknown Request" }, null, query.min ? 0 : 2) });

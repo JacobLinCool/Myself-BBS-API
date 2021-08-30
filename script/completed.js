@@ -2,6 +2,7 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
+console.time("COMPLETED LIST PROGRAM");
 getList().then((list) => {
     list.sort((a, b) => b.watch / b.ep - a.watch / a.ep);
     if (!fs.existsSync("./file/")) fs.mkdirSync("./file/");
@@ -19,6 +20,7 @@ getList().then((list) => {
             2
         )
     );
+    console.timeEnd("COMPLETED LIST PROGRAM");
 });
 
 async function getList(maxDepth = 1000) {

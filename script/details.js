@@ -2,35 +2,51 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
+const P = 6;
+
+console.time("DETAILS CACHE PROGRAM");
 const completed = JSON.parse(fs.readFileSync("./file/completed.json")).data;
 const serializing = JSON.parse(fs.readFileSync("./file/serializing.json")).data;
 const urls = [...completed.map((x) => x.link), ...serializing.map((x) => x.link)];
 
-(async () => {
-    const details = [];
-    if (!fs.existsSync("./file/details/")) fs.mkdirSync("./file/details/");
-    for (let i = 0; i < urls.length; i++) {
-        const url = urls[i];
-        try {
-            await getDetails(url).then((data) => {
-                if (!data.title) {
-                    if (serializing.find((x) => x.link === url)) {
-                        data.title = serializing.find((x) => x.link === url).title;
-                    } else if (completed.find((x) => x.link === url)) {
-                        data.title = completed.find((x) => x.link === url).title;
-                    }
-                }
-                fs.writeFileSync(`./file/details/${data.id}.json`, JSON.stringify(data, null, 2));
-                console.log(`Details: ${i + 1}/${urls.length} ${data.title}`);
-                details.push(data);
-            });
-        } catch (err) {
-            console.error(url);
-            console.error(err);
-        }
+if (!fs.existsSync("./file/details/")) fs.mkdirSync("./file/details/");
+const details = [],
+    failed = [],
+    total = urls.length;
+
+for (let i = 0; i < P; i++) Next();
+
+function Next() {
+    if (urls.length) {
+        const url = urls.shift();
+        cacheDetails(url).then(Next);
+    } else if (details.length + failed.length >= total) {
+        fs.writeFileSync("./file/details.json", JSON.stringify(details, null, 2));
+        fs.writeFileSync("./file/details.failed.json", JSON.stringify(failed, null, 2));
+        console.timeEnd("DETAILS CACHE PROGRAM");
     }
-    fs.writeFileSync("./file/details.json", JSON.stringify(details, null, 2));
-})();
+}
+
+async function cacheDetails(url) {
+    try {
+        await getDetails(url).then((data) => {
+            if (!data.title) {
+                if (serializing.find((x) => x.link === url)) {
+                    data.title = serializing.find((x) => x.link === url).title;
+                } else if (completed.find((x) => x.link === url)) {
+                    data.title = completed.find((x) => x.link === url).title;
+                }
+            }
+            fs.writeFileSync(`./file/details/${data.id}.json`, JSON.stringify(data, null, 2));
+            details.push(data);
+            console.log(`Details: ${details.length}/${total} ${data.title}`);
+        });
+    } catch (err) {
+        console.error(url);
+        console.error(err);
+        failed.push(url);
+    }
+}
 
 async function getDetails(url) {
     const raw = await fetch(url).then((res) => res.text());
@@ -58,7 +74,7 @@ async function getDetails(url) {
             const code = node.querySelector("a[data-href^='https://v.myself-bbs.com']").dataset.href.trim().match(/\d+/g);
             obj[name] = code;
         } catch (err) {
-            console.error(err.message, url);
+            // console.error(err.message, url);
         }
         return obj;
     }, {});

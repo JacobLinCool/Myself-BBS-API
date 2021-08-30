@@ -10,8 +10,13 @@ jobs:
     name: Build Data
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Main Branch
         uses: actions/checkout@v2
+      - name: Checkout Data Branch
+        uses: actions/checkout@v2
+        with:
+          ref: data
+          path: file
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
@@ -28,3 +33,4 @@ jobs:
           user_name: "JacobLinCool"
           user_email: "jacoblincool@users.noreply.github.com"
           publish_branch: "data"
+          keep_files: true
