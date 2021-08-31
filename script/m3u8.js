@@ -27,7 +27,7 @@ const interval = setInterval(() => {
 for (let i = 0; i < P; i++) Next();
 setTimeout(() => {
     process.exit(0);
-}, 30 * 60 * 1000);
+}, 25 * 60 * 1000);
 
 async function Next() {
     if (list.length) {
