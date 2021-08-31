@@ -12,7 +12,7 @@
         "preview": "wrangler preview --watch",
         "publish": "wrangler publish",
         "test": "node --experimental-vm-modules node_modules/.bin/jest --config=jest.config.mjs",
-        "list": "node script/serializing.js && node script/completed.js && node script/details.js"
+        "list": "node script/serializing.js && node script/completed.js && node script/details.js && node script/m3u8.js"
     },
     "dependencies": {
         "fuse.js": "^6.4.6",
