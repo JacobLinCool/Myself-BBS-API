@@ -25,6 +25,9 @@ const interval = setInterval(() => {
     if (Object.keys(running).length === 0) clearInterval(interval);
 }, 30000);
 for (let i = 0; i < P; i++) Next();
+setTimeout(() => {
+    process.exit(0);
+}, 30 * 60 * 1000);
 
 async function Next() {
     if (list.length) {
