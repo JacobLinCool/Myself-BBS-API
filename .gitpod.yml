@@ -1,7 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: "nvm install v16 && npm install"
-    command: echo 'start script'
+    command: "nvm install v16"
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
