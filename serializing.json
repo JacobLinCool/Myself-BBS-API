@@ -1,6 +1,6 @@
 {
   "meta": {
-    "time": 1640607377646,
+    "time": 1640621689570,
     "length": 25
   },
   "data": [
@@ -10,7 +10,7 @@
       "link": "https://myself-bbs.com/thread-47281-1-1.html",
       "ep": 21,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/4a/8b/47281.jpg",
-      "watch": 769442
+      "watch": 770559
     },
     {
       "id": 47976,
@@ -18,7 +18,7 @@
       "link": "https://myself-bbs.com/thread-47976-1-1.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/67/79/47976.jpg",
-      "watch": 241555
+      "watch": 243002
     },
     {
       "id": 48133,
@@ -26,7 +26,15 @@
       "link": "https://myself-bbs.com/thread-48133-1-1.html",
       "ep": 4,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/6a/14/48133.jpg",
-      "watch": 174395
+      "watch": 179750
+    },
+    {
+      "id": 47985,
+      "title": "白金終局／Platinum End",
+      "link": "https://myself-bbs.com/thread-47985-1-1.html",
+      "ep": 12,
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/f3/ed/47985.jpg",
+      "watch": 187091
     },
     {
       "id": 42657,
@@ -34,7 +42,7 @@
       "link": "https://myself-bbs.com/thread-42657-1-1.html",
       "ep": 1004,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/a5/8f/42657.jpg",
-      "watch": 4976307
+      "watch": 4977492
     },
     {
       "id": 47982,
@@ -42,7 +50,7 @@
       "link": "https://myself-bbs.com/thread-47982-1-1.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/18/2a/47982.jpg",
-      "watch": 87829
+      "watch": 88487
     },
     {
       "id": 47931,
@@ -50,7 +58,7 @@
       "link": "https://myself-bbs.com/thread-47931-1-1.html",
       "ep": 13,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/87/1a/47931.jpg",
-      "watch": 51300
+      "watch": 51423
     },
     {
       "id": 45306,
@@ -58,7 +66,7 @@
       "link": "https://myself-bbs.com/thread-45306-1-1.html",
       "ep": 92,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/b8/a5/45306.jpg",
-      "watch": 1286593
+      "watch": 1287319
     },
     {
       "id": 47956,
@@ -66,7 +74,7 @@
       "link": "https://myself-bbs.com/thread-47956-1-1.html",
       "ep": 1,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/e3/30/47956.jpg",
-      "watch": 85683
+      "watch": 85883
     },
     {
       "id": 47964,
@@ -74,7 +82,7 @@
       "link": "https://myself-bbs.com/thread-47964-1-1.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/62/c1/47964.jpg",
-      "watch": 28477
+      "watch": 28582
     },
     {
       "id": 47951,
@@ -82,7 +90,7 @@
       "link": "https://myself-bbs.com/thread-47951-1-1.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/99/34/47951.jpg",
-      "watch": 689492
+      "watch": 690570
     },
     {
       "id": 42259,
@@ -90,7 +98,7 @@
       "link": "https://myself-bbs.com/thread-42259-1-1.html",
       "ep": 230,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/e4/73/42259.jpg",
-      "watch": 6576033
+      "watch": 6576963
     },
     {
       "id": 48006,
@@ -98,7 +106,7 @@
       "link": "https://myself-bbs.com/thread-48006-1-1.html",
       "ep": 9,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/29/4e/48006.jpg",
-      "watch": 193816
+      "watch": 194435
     },
     {
       "id": 47124,
@@ -106,7 +114,7 @@
       "link": "https://myself-bbs.com/thread-47124-1-1.html",
       "ep": 42,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/6f/55/47124.jpg",
-      "watch": 64945
+      "watch": 65021
     },
     {
       "id": 47934,
@@ -114,7 +122,7 @@
       "link": "https://myself-bbs.com/thread-47934-1-1.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/4f/f4/47934.jpg",
-      "watch": 70418
+      "watch": 70601
     },
     {
       "id": 48031,
@@ -122,7 +130,7 @@
       "link": "https://myself-bbs.com/thread-48031-1-1.html",
       "ep": 10,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/8e/a4/48031.jpg",
-      "watch": 69060
+      "watch": 69309
     },
     {
       "id": 47279,
@@ -130,7 +138,7 @@
       "link": "https://myself-bbs.com/thread-47279-1-1.html",
       "ep": 37,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/03/0d/47279.jpg",
-      "watch": 507317
+      "watch": 507708
     },
     {
       "id": 47293,
@@ -138,7 +146,7 @@
       "link": "https://myself-bbs.com/thread-47293-1-1.html",
       "ep": 37,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/2a/7d/47293.jpg",
-      "watch": 36157
+      "watch": 36184
     },
     {
       "id": 47969,
@@ -146,7 +154,7 @@
       "link": "https://myself-bbs.com/thread-47969-1-1.html",
       "ep": 9,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/09/7c/47969.jpg",
-      "watch": 60084
+      "watch": 60158
     },
     {
       "id": 46160,
@@ -154,15 +162,7 @@
       "link": "https://myself-bbs.com/thread-46160-1-1.html",
       "ep": 63,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/6f/f1/46160.jpg",
-      "watch": 269930
-    },
-    {
-      "id": 47985,
-      "title": "白金終局／Platinum End",
-      "link": "https://myself-bbs.com/thread-47985-1-1.html",
-      "ep": 11,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/f3/ed/47985.jpg",
-      "watch": 185226
+      "watch": 270000
     },
     {
       "id": 47974,
@@ -170,7 +170,7 @@
       "link": "https://myself-bbs.com/thread-47974-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/3e/ad/47974.jpg",
-      "watch": 54774
+      "watch": 54821
     },
     {
       "id": 48058,
@@ -178,7 +178,7 @@
       "link": "https://myself-bbs.com/thread-48058-1-2.html",
       "ep": 1,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/b9/98/48058.jpg",
-      "watch": 47571
+      "watch": 47705
     },
     {
       "id": 47802,
@@ -186,7 +186,7 @@
       "link": "https://myself-bbs.com/thread-47802-1-2.html",
       "ep": 8,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/a7/0b/47802.jpg",
-      "watch": 50668
+      "watch": 50693
     },
     {
       "id": 47141,
@@ -194,7 +194,7 @@
       "link": "https://myself-bbs.com/thread-47141-1-2.html",
       "ep": 6,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/1b/7f/47141.jpg",
-      "watch": 27315
+      "watch": 27324
     },
     {
       "id": 45288,
@@ -202,7 +202,7 @@
       "link": "https://myself-bbs.com/thread-45288-1-2.html",
       "ep": 9,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/cf/1b/45288.jpg",
-      "watch": 89266
+      "watch": 89309
     }
   ]
 }
