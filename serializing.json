@@ -1,72 +1,16 @@
 {
   "meta": {
-    "time": 1648412358561,
+    "time": 1648431374984,
     "length": 41
   },
   "data": [
     {
-      "id": 42259,
-      "title": "博人傳 -火影新世代-",
-      "link": "https://myself-bbs.com/thread-42259-1-1.html",
-      "ep": 242,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/e4/73/42259.jpg",
-      "watch": 6799146
-    },
-    {
-      "id": 47281,
-      "title": "86－不存在的戰區",
-      "link": "https://myself-bbs.com/thread-47281-1-1.html",
-      "ep": 23,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/4a/8b/47281.jpg",
-      "watch": 982232
-    },
-    {
-      "id": 48265,
-      "title": "明日同學的水手服",
-      "link": "https://myself-bbs.com/thread-48265-1-1.html",
+      "id": 48252,
+      "title": "擅長捉弄人的高木同學 第三季",
+      "link": "https://myself-bbs.com/thread-48252-1-1.html",
       "ep": 12,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/55/7d/48265.jpg",
-      "watch": 147611
-    },
-    {
-      "id": 47698,
-      "title": "現實主義勇者的王國重建記",
-      "link": "https://myself-bbs.com/thread-47698-1-1.html",
-      "ep": 25,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/68/e5/47698.jpg",
-      "watch": 963660
-    },
-    {
-      "id": 47956,
-      "title": "終末的後宮",
-      "link": "https://myself-bbs.com/thread-47956-1-1.html",
-      "ep": 11,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/e3/30/47956.jpg",
-      "watch": 413290
-    },
-    {
-      "id": 48256,
-      "title": "失格紋的最強賢者",
-      "link": "https://myself-bbs.com/thread-48256-1-1.html",
-      "ep": 12,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/0f/0e/48256.jpg",
-      "watch": 384143
-    },
-    {
-      "id": 48291,
-      "title": "怪人開發部的黑井津小姐",
-      "link": "https://myself-bbs.com/thread-48291-1-1.html",
-      "ep": 11,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/f0/13/48291.jpg",
-      "watch": 129678
-    },
-    {
-      "id": 48261,
-      "title": "CUE!",
-      "link": "https://myself-bbs.com/thread-48261-1-1.html",
-      "ep": 12,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/bc/05/48261.jpg",
-      "watch": 84448
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/64/56/48252.jpg",
+      "watch": 186875
     },
     {
       "id": 48264,
@@ -74,15 +18,71 @@
       "link": "https://myself-bbs.com/thread-48264-1-1.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/e1/1a/48264.jpg",
-      "watch": 737178
+      "watch": 738844
     },
     {
-      "id": 48252,
-      "title": "擅長捉弄人的高木同學 第三季",
-      "link": "https://myself-bbs.com/thread-48252-1-1.html",
+      "id": 42259,
+      "title": "博人傳 -火影新世代-",
+      "link": "https://myself-bbs.com/thread-42259-1-1.html",
+      "ep": 242,
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/e4/73/42259.jpg",
+      "watch": 6799490
+    },
+    {
+      "id": 47281,
+      "title": "86－不存在的戰區",
+      "link": "https://myself-bbs.com/thread-47281-1-1.html",
+      "ep": 23,
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/4a/8b/47281.jpg",
+      "watch": 982589
+    },
+    {
+      "id": 48265,
+      "title": "明日同學的水手服",
+      "link": "https://myself-bbs.com/thread-48265-1-1.html",
       "ep": 12,
-      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/64/56/48252.jpg",
-      "watch": 186625
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/55/7d/48265.jpg",
+      "watch": 148029
+    },
+    {
+      "id": 47698,
+      "title": "現實主義勇者的王國重建記",
+      "link": "https://myself-bbs.com/thread-47698-1-1.html",
+      "ep": 25,
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/68/e5/47698.jpg",
+      "watch": 964526
+    },
+    {
+      "id": 47956,
+      "title": "終末的後宮",
+      "link": "https://myself-bbs.com/thread-47956-1-1.html",
+      "ep": 11,
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/e3/30/47956.jpg",
+      "watch": 413482
+    },
+    {
+      "id": 48256,
+      "title": "失格紋的最強賢者",
+      "link": "https://myself-bbs.com/thread-48256-1-1.html",
+      "ep": 12,
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/0f/0e/48256.jpg",
+      "watch": 384683
+    },
+    {
+      "id": 48291,
+      "title": "怪人開發部的黑井津小姐",
+      "link": "https://myself-bbs.com/thread-48291-1-1.html",
+      "ep": 11,
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/f0/13/48291.jpg",
+      "watch": 129966
+    },
+    {
+      "id": 48261,
+      "title": "CUE!",
+      "link": "https://myself-bbs.com/thread-48261-1-1.html",
+      "ep": 12,
+      "image": "https://myself-bbs.com/data/attachment/forum/threadcover/bc/05/48261.jpg",
+      "watch": 84797
     },
     {
       "id": 47931,
@@ -90,7 +90,7 @@
       "link": "https://myself-bbs.com/thread-47931-1-1.html",
       "ep": 24,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/87/1a/47931.jpg",
-      "watch": 114526
+      "watch": 114599
     },
     {
       "id": 46442,
@@ -98,7 +98,7 @@
       "link": "https://myself-bbs.com/thread-46442-1-1.html",
       "ep": 27,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/e7/9b/46442.jpg",
-      "watch": 1594951
+      "watch": 1595530
     },
     {
       "id": 48284,
@@ -106,7 +106,7 @@
       "link": "https://myself-bbs.com/thread-48284-1-1.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/c3/38/48284.jpg",
-      "watch": 189708
+      "watch": 189836
     },
     {
       "id": 47279,
@@ -114,7 +114,7 @@
       "link": "https://myself-bbs.com/thread-47279-1-1.html",
       "ep": 48,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/03/0d/47279.jpg",
-      "watch": 633739
+      "watch": 634074
     },
     {
       "id": 48287,
@@ -122,7 +122,7 @@
       "link": "https://myself-bbs.com/thread-48287-1-1.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/87/78/48287.jpg",
-      "watch": 118285
+      "watch": 118469
     },
     {
       "id": 48311,
@@ -130,7 +130,7 @@
       "link": "https://myself-bbs.com/thread-48311-1-1.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/ae/39/48311.jpg",
-      "watch": 25047
+      "watch": 25097
     },
     {
       "id": 48302,
@@ -138,7 +138,7 @@
       "link": "https://myself-bbs.com/thread-48302-1-1.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/d6/3c/48302.jpg",
-      "watch": 42900
+      "watch": 42977
     },
     {
       "id": 47964,
@@ -146,7 +146,7 @@
       "link": "https://myself-bbs.com/thread-47964-1-1.html",
       "ep": 24,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/62/c1/47964.jpg",
-      "watch": 53206
+      "watch": 53293
     },
     {
       "id": 47985,
@@ -154,7 +154,7 @@
       "link": "https://myself-bbs.com/thread-47985-1-1.html",
       "ep": 23,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/f3/ed/47985.jpg",
-      "watch": 312092
+      "watch": 312158
     },
     {
       "id": 48332,
@@ -162,7 +162,7 @@
       "link": "https://myself-bbs.com/thread-48332-1-1.html",
       "ep": 7,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/9d/29/48332.jpg",
-      "watch": 46714
+      "watch": 46786
     },
     {
       "id": 47689,
@@ -170,7 +170,7 @@
       "link": "https://myself-bbs.com/thread-47689-1-2.html",
       "ep": 23,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/24/4b/47689.jpg",
-      "watch": 277031
+      "watch": 277117
     },
     {
       "id": 47293,
@@ -178,7 +178,7 @@
       "link": "https://myself-bbs.com/thread-47293-1-2.html",
       "ep": 49,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/2a/7d/47293.jpg",
-      "watch": 48587
+      "watch": 48629
     },
     {
       "id": 45306,
@@ -186,7 +186,7 @@
       "link": "https://myself-bbs.com/thread-45306-1-2.html",
       "ep": 102,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/b8/a5/45306.jpg",
-      "watch": 1499404
+      "watch": 1499574
     },
     {
       "id": 48290,
@@ -194,7 +194,7 @@
       "link": "https://myself-bbs.com/thread-48290-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/04/25/48290.jpg",
-      "watch": 422919
+      "watch": 423280
     },
     {
       "id": 48253,
@@ -202,7 +202,7 @@
       "link": "https://myself-bbs.com/thread-48253-1-2.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/29/42/48253.jpg",
-      "watch": 79223
+      "watch": 79280
     },
     {
       "id": 48279,
@@ -210,7 +210,7 @@
       "link": "https://myself-bbs.com/thread-48279-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/c7/d2/48279.jpg",
-      "watch": 408940
+      "watch": 409142
     },
     {
       "id": 48242,
@@ -218,7 +218,7 @@
       "link": "https://myself-bbs.com/thread-48242-1-2.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/42/e4/48242.jpg",
-      "watch": 150840
+      "watch": 150888
     },
     {
       "id": 48006,
@@ -226,7 +226,7 @@
       "link": "https://myself-bbs.com/thread-48006-1-2.html",
       "ep": 21,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/29/4e/48006.jpg",
-      "watch": 458975
+      "watch": 459138
     },
     {
       "id": 48243,
@@ -234,7 +234,7 @@
       "link": "https://myself-bbs.com/thread-48243-1-2.html",
       "ep": 12,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/45/7c/48243.jpg",
-      "watch": 461900
+      "watch": 462045
     },
     {
       "id": 48283,
@@ -242,7 +242,7 @@
       "link": "https://myself-bbs.com/thread-48283-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/b1/93/48283.jpg",
-      "watch": 285379
+      "watch": 285468
     },
     {
       "id": 48280,
@@ -250,7 +250,7 @@
       "link": "https://myself-bbs.com/thread-48280-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/ee/b5/48280.jpg",
-      "watch": 232483
+      "watch": 232577
     },
     {
       "id": 48274,
@@ -258,7 +258,7 @@
       "link": "https://myself-bbs.com/thread-48274-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/32/dc/48274.jpg",
-      "watch": 175889
+      "watch": 175973
     },
     {
       "id": 47934,
@@ -266,7 +266,7 @@
       "link": "https://myself-bbs.com/thread-47934-1-2.html",
       "ep": 21,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/4f/f4/47934.jpg",
-      "watch": 118713
+      "watch": 118743
     },
     {
       "id": 48276,
@@ -274,7 +274,7 @@
       "link": "https://myself-bbs.com/thread-48276-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/fb/de/48276.jpg",
-      "watch": 14839
+      "watch": 14848
     },
     {
       "id": 48266,
@@ -282,7 +282,7 @@
       "link": "https://myself-bbs.com/thread-48266-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/3f/c4/48266.jpg",
-      "watch": 107583
+      "watch": 107654
     },
     {
       "id": 48329,
@@ -290,7 +290,7 @@
       "link": "https://myself-bbs.com/thread-48329-1-2.html",
       "ep": 5,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/20/b7/48329.jpg",
-      "watch": 18396
+      "watch": 18422
     },
     {
       "id": 46160,
@@ -298,7 +298,7 @@
       "link": "https://myself-bbs.com/thread-46160-1-2.html",
       "ep": 72,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/6f/f1/46160.jpg",
-      "watch": 322291
+      "watch": 322338
     },
     {
       "id": 42657,
@@ -306,7 +306,7 @@
       "link": "https://myself-bbs.com/thread-42657-1-2.html",
       "ep": 1013,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/a5/8f/42657.jpg",
-      "watch": 5488694
+      "watch": 5489588
     },
     {
       "id": 48268,
@@ -314,7 +314,7 @@
       "link": "https://myself-bbs.com/thread-48268-1-2.html",
       "ep": 9,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/b5/64/48268.jpg",
-      "watch": 72912
+      "watch": 72948
     },
     {
       "id": 48295,
@@ -322,7 +322,7 @@
       "link": "https://myself-bbs.com/thread-48295-1-2.html",
       "ep": 11,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/9d/02/48295.jpg",
-      "watch": 50517
+      "watch": 50555
     },
     {
       "id": 48058,
@@ -330,7 +330,7 @@
       "link": "https://myself-bbs.com/thread-48058-1-3.html",
       "ep": 1,
       "image": "https://myself-bbs.com/data/attachment/forum/threadcover/b9/98/48058.jpg",
-      "watch": 63549
+      "watch": 63566
     }
   ]
 }
