@@ -1,11 +1,13 @@
 name = "myself-bbs"
-type = "webpack"
+main = "dist/worker.js"
 account_id = "b1c3d1b89f9131a84a0f1f6a973232f1"
 workers_dev = true
-route = ""
-zone_id = ""
-webpack_config = "webpack.config.js"
 kv_namespaces = []
+compatibility_date = "2022-06-01"
 
-[triggers]
-crons = []
+[build]
+command = "npm run -s build"
+
+[[rules]]
+type = "ESModule"
+globs = ["src/**/*.js"]

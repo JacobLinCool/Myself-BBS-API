@@ -5,25 +5,29 @@
     "author": "JacobLinCool",
     "license": "MIT",
     "main": "dist/worker.js",
+    "type": "module",
     "scripts": {
         "login": "wrangler login",
-        "build": "wrangler build",
+        "build": "esbuild src/main.js --bundle --minify --format=esm --outfile=dist/worker.js",
         "dev": "wrangler dev",
-        "preview": "wrangler preview --watch",
         "publish": "wrangler publish",
         "test": "node --experimental-vm-modules node_modules/.bin/jest --config=jest.config.mjs",
-        "list": "node script/serializing.js && node script/completed.js && node script/details.js && node script/m3u8.js"
+        "crawl": "node crawler/index.mjs"
     },
     "dependencies": {
-        "fuse.js": "^6.4.6",
-        "itty-router": "^2.3.10",
-        "jsdom": "^17.0.0",
-        "node-fetch": "^2.6.1"
+        "fuse.js": "^6.6.2",
+        "itty-router": "^2.6.1"
     },
     "devDependencies": {
-        "@cloudflare/wrangler": "^1.17.0",
-        "jest": "^27.0.6",
-        "webpack": "^5.37.1",
-        "webpack-cli": "^4.7.0"
+        "@jacoblincool/puddle": "^0.1.1",
+        "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+        "esbuild": "^0.14.42",
+        "jest": "^27.5.1",
+        "jsdom": "^17.0.0",
+        "node-fetch": "^2.6.7",
+        "prettier": "^2.6.2",
+        "webpack": "^5.73.0",
+        "webpack-cli": "^4.9.2",
+        "wrangler": "^2.0.7"
     }
 }

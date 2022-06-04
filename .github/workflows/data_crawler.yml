@@ -1,0 +1,33 @@
+name: Data Crawler
+
+on:
+    schedule:
+        - cron: "0 */4 * * *"
+    workflow_dispatch:
+
+jobs:
+    crawler:
+        name: Data Crawler
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Main Branch
+              uses: actions/checkout@v3
+
+            - name: Checkout Data Branch
+              uses: actions/checkout@v3
+              with:
+                  ref: data
+                  path: file
+
+            - name: Install Packages
+              run: npx -y pnpm install
+
+            - name: Build Data
+              run: npm run crawler
+
+            - name: Commit
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: "./file"
+                  publish_branch: "data"

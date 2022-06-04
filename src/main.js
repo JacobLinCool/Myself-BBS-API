@@ -1,9 +1,9 @@
 import { Router } from "itty-router";
-import { response } from "./response";
-import { getAiringList, getCompletedList } from "./list";
 import { getAnime, getM3U8 } from "./anime";
+import { BASE } from "./constants";
+import { getAiringList, getCompletedList } from "./list";
+import { response } from "./response";
 import { search } from "./search";
-import fetch from "node-fetch";
 
 const router = Router();
 
@@ -39,7 +39,7 @@ router.get("/list/airing", async (request) => {
 router.get("/anime/all", async (request) => {
     const { query } = request;
 
-    const data = await fetch("https://raw.githubusercontent.com/JacobLinCool/Myself-BBS-API/data/details.json").then((r) => r.json());
+    const data = await fetch(`${BASE}details.json`).then((r) => r.json());
 
     return response({ data: JSON.stringify({ data }, null, query.min ? 0 : 2) });
 });
@@ -70,21 +70,21 @@ router.get("/search/:query", async (request) => {
 // unknown request
 router.all("*", async (request) => {
     const { query } = request;
-    return response({ data: JSON.stringify({ error: "Unknown Request" }, null, query.min ? 0 : 2) });
+    return response({
+        data: JSON.stringify({ error: "Unknown Request" }, null, query.min ? 0 : 2),
+    });
 });
 
-async function main() {
-    addEventListener("fetch", (event) => {
+export default {
+    async fetch(request, environment, context) {
         try {
-            event.respondWith(router.handle(event.request));
+            return await router.handle(request);
         } catch (err) {
-            event.respondWith(response({ data: JSON.stringify({ error: err.message }, null, 2) }));
+            console.error(err);
+            return response({ data: JSON.stringify({ error: err.message }, null, 2) });
         }
-    });
-
-    addEventListener("scheduled", (event) => {
-        event.waitUntil(handle_cron(event));
-    });
-}
-
-export { main };
+    },
+    async scheduled(controller, environment, context) {
+        // await dosomething();
+    },
+};

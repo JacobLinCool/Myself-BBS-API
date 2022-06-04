@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "myself-bbs" generated at 2022-06-04T19:10:35.440Z.
