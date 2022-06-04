@@ -23,7 +23,7 @@ jobs:
               run: npx -y pnpm install
 
             - name: Build Data
-              run: npm run crawler
+              run: npm run crawl
 
             - name: Commit
               uses: peaceiris/actions-gh-pages@v3
