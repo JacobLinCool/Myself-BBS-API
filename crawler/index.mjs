@@ -39,6 +39,9 @@ const indent = 0;
     for (const item of items) {
         pool.push(async () => {
             const details = await get_details(item.link);
+            if (!details.title) {
+                details.title = item.title;
+            }
             details_list.push(details);
             fs.writeFileSync(
                 path.resolve(details_dir, `${item.id}.json`),
