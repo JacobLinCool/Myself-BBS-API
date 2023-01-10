@@ -61,40 +61,40 @@ const indent = 0;
         JSON.stringify({ meta: { time: Date.now() }, data: details_list }, null, indent),
     );
 
-    const m3u8_dir = path.resolve(dist, "m3u8");
-    if (!fs.existsSync(m3u8_dir)) {
-        fs.mkdirSync(m3u8_dir, { recursive: true });
-    }
+//     const m3u8_dir = path.resolve(dist, "m3u8");
+//     if (!fs.existsSync(m3u8_dir)) {
+//         fs.mkdirSync(m3u8_dir, { recursive: true });
+//     }
 
-    const m3u8_pool = new Pool(30);
-    let m3u8_done = 0,
-        m3u8_total = 0;
-    for (const details of details_list) {
-        for (const key in details.episodes) {
-            const episode = details.episodes[key];
-            const dir = path.resolve(m3u8_dir, episode[0]);
-            if (!fs.existsSync(path.resolve(dir, `${episode[1]}.m3u8`))) {
-                m3u8_pool.push(async () => {
-                    const m3u8 = await get_m3u8({ vid: episode[0], ep: episode[1] });
-                    if (m3u8) {
-                        if (!fs.existsSync(dir)) {
-                            fs.mkdirSync(dir, { recursive: true });
-                        }
-                        fs.writeFileSync(path.resolve(dir, `${episode[1]}.m3u8`), m3u8);
-                    }
-                    m3u8_done++;
-                    console.log(
-                        `[ ${m3u8_done
-                            .toString()
-                            .padStart(Math.log10(m3u8_total) + 1)} / ${m3u8_total} ]`,
-                        `(${((m3u8_done / m3u8_total) * 100).toFixed(2)}%) ${details.title} ${key}`,
-                    );
-                });
-                m3u8_total++;
-            }
-        }
-    }
-    await m3u8_pool.run();
+//     const m3u8_pool = new Pool(30);
+//     let m3u8_done = 0,
+//         m3u8_total = 0;
+//     for (const details of details_list) {
+//         for (const key in details.episodes) {
+//             const episode = details.episodes[key];
+//             const dir = path.resolve(m3u8_dir, episode[0]);
+//             if (!fs.existsSync(path.resolve(dir, `${episode[1]}.m3u8`))) {
+//                 m3u8_pool.push(async () => {
+//                     const m3u8 = await get_m3u8({ vid: episode[0], ep: episode[1] });
+//                     if (m3u8) {
+//                         if (!fs.existsSync(dir)) {
+//                             fs.mkdirSync(dir, { recursive: true });
+//                         }
+//                         fs.writeFileSync(path.resolve(dir, `${episode[1]}.m3u8`), m3u8);
+//                     }
+//                     m3u8_done++;
+//                     console.log(
+//                         `[ ${m3u8_done
+//                             .toString()
+//                             .padStart(Math.log10(m3u8_total) + 1)} / ${m3u8_total} ]`,
+//                         `(${((m3u8_done / m3u8_total) * 100).toFixed(2)}%) ${details.title} ${key}`,
+//                     );
+//                 });
+//                 m3u8_total++;
+//             }
+//         }
+//     }
+//     await m3u8_pool.run();
 
     console.log("Done!");
 })();
