@@ -35,7 +35,7 @@ export async function get_details(link) {
             const code = node
                 .querySelector("a[data-href^='https://v.myself-bbs.com']")
                 .dataset.href.trim()
-                .match(/\d+/g);
+                .match(/\/player\/(.+)/)[1];
             obj[name] = code;
         } catch (err) {
             console.error(err.message, link);
