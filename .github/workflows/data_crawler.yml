@@ -11,22 +11,23 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Main Branch
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: Checkout Data Branch
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               with:
                   ref: data
                   path: file
 
-            - name: Install Packages
-              run: npx -y pnpm install
+            - uses: pnpm/action-setup@v2
+              with:
+                version: 8.15.8
 
             - name: Build Data
               run: npm run crawl
 
             - name: Commit
-              uses: peaceiris/actions-gh-pages@v3
+              uses: peaceiris/actions-gh-pages@v4
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: "./file"
